@@ -1,1 +1,4 @@
+PyMuPDF==1.23.9         # For PDF text extraction
+faiss-cpu==1.7.4        # For local vector store
+sentence-transformers==2.2.2  # For generating embeddings
 
