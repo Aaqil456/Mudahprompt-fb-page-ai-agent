@@ -2,7 +2,7 @@ import os
 import requests
 
 def query_easypeasy(question: str) -> str:
-    url = "https://bots.easy-peasy.ai/bot/YOUR_BOT_ID/api"  # Replace with your real bot ID
+    url = "https://bots.easy-peasy.ai/bot/bot/e56f7685-30ed-4361-b6c1-8e17495b7faa/api"  # Replace with your real bot ID
     headers = {
         "content-type": "application/json",
         "x-api-key": os.getenv("EASYPEASY_API_KEY")
