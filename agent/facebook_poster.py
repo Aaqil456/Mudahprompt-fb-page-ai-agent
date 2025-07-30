@@ -33,4 +33,3 @@ def post_to_facebook(message: str) -> bool:
     except Exception as e:
         print("[FB Post Exception]", e)
         return False
-
