@@ -23,4 +23,3 @@ def generate_question():
     template = random.choice(templates)
     topic = random.choice(topics)
     return template.format(topic=topic)
-
