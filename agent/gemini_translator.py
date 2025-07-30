@@ -25,4 +25,3 @@ Avoid slang or emojis, and don’t include any introduction or notes. Only retur
     except Exception as e:
         print("[Gemini Error]", e)
         return ""
-
