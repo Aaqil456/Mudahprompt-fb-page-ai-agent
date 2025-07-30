@@ -15,15 +15,13 @@ def main():
         return
 
     fb_post = rewrite_with_gemini(raw_answer)
-    post_to_facebook(fb_post)
-
-    save_to_memory({
-        "question": question,
-        "answer": raw_answer,
-        "translated_post": fb_post,
-        "timestamp": datetime.now().isoformat()
-    })
+    if post_to_facebook(fb_post):
+        save_to_memory({
+            "question": question,
+            "answer": raw_answer,
+            "translated_post": fb_post,
+            "timestamp": datetime.now().isoformat()
+        })
 
 if __name__ == "__main__":
     main()
-
