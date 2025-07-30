@@ -3,7 +3,7 @@ name: MudahPrompt FB AutoPoster
 on:
   workflow_dispatch:
   #schedule:
-    #- cron: "*/30 * * * *"  # Run every 30 minutes
+  #  - cron: "*/30 * * * *"
 
 permissions:
   contents: write
